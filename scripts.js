@@ -7,13 +7,15 @@ console.log(shareBtn);
 
 shareBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log("clicou!!");
-    console.log(shareContent);
 
-    shareContent.classList.toggle('hidden');
+     shareContent.classList.toggle('hidden');
+
+   /*  if(shareContent.hasAttribute('display: flex')) {
+
+    } */
+
     avatarContent.classList.toggle('hidden');
 
     cardFooter.classList.toggle('active');
 
-
-})
+});
